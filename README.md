@@ -10,7 +10,7 @@ Currently updated with some samples for UI work.
 
 ## Verification Widget (Yes/No)
 Customizable, description can be modified based on location it's called from.
-![alt text](ShowcaseProject/Screenshots/Simple_YesNo_VerificationWidget.png?raw=true)
+![Verification Widget](/Screenshots/Simple_YesNo_VerificationWidget.png?raw=true)
 
 ## Image 02
 
