@@ -4,7 +4,7 @@ Currently updated with some samples for UI work.
 * HUD usage for optimization in regards to UI and gameplay.
 * Course widget, shows a timer and some translated UI text.
 * Simple Menu Button to reduce repeating code. Also makes designing easier.
-* Basic Slate classes for SizeBox that can handle ultra widescreen support for PC/Console. (Not finalized)
+* Basic Slate classes for SizeBox that can handle ultra widescreen support for PC/Console. (Not finalized, only examples)
 
 
 
