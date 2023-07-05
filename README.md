@@ -8,7 +8,9 @@ Currently updated with some samples for UI work.
 
 
 
-## Image 01
+## Verification Widget (Yes/No)
+Customizable, description can be modified based on location it's called from.
+![image](ShowcaseProject/Screenshots/Simple_YesNo_VerificationWidget.png)
 
 ## Image 02
 
