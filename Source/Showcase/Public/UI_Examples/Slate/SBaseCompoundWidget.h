@@ -6,12 +6,20 @@
 
 class SHOWCASE_API SBaseCompoundWidget : public SCompoundWidget
 {
-public:
-	SLATE_BEGIN_ARGS(SBaseCompoundWidget)
-	{
-	}
+	SLATE_BEGIN_ARGS(SBaseCompoundWidget){}
+
+	SLATE_ARGUMENT(TWeakObjectPtr<class AHUD>, OwnerHUD)
+
 	SLATE_END_ARGS()
 
-	// * Constructs this widget with InArgs
+public:
 	void Construct(const FArguments& InArgs);
+
+public:
+	static float PointSizeToSlateUnits(float PointSize);
+protected:
+	float GetDPIScale() const;
+
+private:
+	TWeakObjectPtr<class AHUD> OwnerHUD;
 };
